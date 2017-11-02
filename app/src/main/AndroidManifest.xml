@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yad.tapan.aktu_sample">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/syal"
+        android:label="AKTU Syllabus"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.yad.tapan.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yad.tapan.Branch"
+            android:label="Select Your Branch"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name="com.yad.tapan.Branch3"
+            android:label="Select Your Branch" />
+        <activity android:name="com.yad.tapan.Branch4"
+            android:label="Select Your Branch"/>
+
+        <activity android:name="com.yad.tapan.cs_sem3s" android:label="CSE Second Year "/>
+        <activity android:name="com.yad.tapan.it2"
+            android:label="ITE Second Year "/>
+        <activity android:name="com.yad.tapan.me2"
+            android:label="MEE Second Year "/>
+        <activity android:name="com.yad.tapan.cv2"
+            android:label="CVE Second Year "/>
+        <activity android:name="com.yad.tapan.cv3"
+            android:label="CVE Third Year "/>
+        <activity android:name="com.yad.tapan.el2"
+            android:label="ELE Second Year "/>
+        <activity android:name="com.yad.tapan.me3"
+            android:label="ME Third Year "/>
+        <activity android:name="com.yad.tapan.cs3" android:label="CSE Third Year "/>
+        <activity android:name="com.yad.tapan.it3" android:label="ITE Third Year "/>
+        <activity android:name="com.yad.tapan.year1" android:label="First Year "/>
+        <activity android:name="com.yad.tapan.el3" android:label="ELE Third Year "/>
+        <activity android:name="com.yad.tapan.cs4" android:label="CSE Fourth Year"/>
+        <activity android:name="com.yad.tapan.Main2Activity"
+            android:label="Select Your Year"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

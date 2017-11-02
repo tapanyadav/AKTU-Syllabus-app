@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "47496089554",
+    "firebase_url": "https://aktu-syllabus-master.firebaseio.com",
+    "project_id": "aktu-syllabus-master",
+    "storage_bucket": "aktu-syllabus-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47496089554:android:a8521e3d34b21e5b",
+        "android_client_info": {
+          "package_name": "com.yad.tapan.aktu_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47496089554-deoahcqtjcnlppaj82md8o2g64gd6r52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yad.tapan.aktu_sample",
+            "certificate_hash": "80ad313bdfa3162477cb5a4bbae701b0c89a929d"
+          }
+        },
+        {
+          "client_id": "47496089554-ldpkuufooepj784l73hlshmj8l6k8pmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMUicNTlRCYCQdLL23rsxS3gAyNzBjrLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47496089554-ldpkuufooepj784l73hlshmj8l6k8pmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
